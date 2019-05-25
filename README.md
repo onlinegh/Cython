@@ -1,6 +1,6 @@
 # Cython - optimising static compiler
 An easy way to create compiled libraries out of Python modules.
-![process flow](https://drive.google.com/file/d/1dU_WJafoPbP_mCpbUrfl11zc_Xupv3lD/view/cython.jpg)
+
 
 
 #### The Following commands to install Django framework in python (if you have python installed).
