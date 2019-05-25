@@ -1,4 +1,4 @@
-`# Cython - optimising static compiler
+# Cython - optimising static compiler
 An easy way to create compiled libraries out of Python modules.
 
 #### The Following commands to install Cython in python (if you have python installed).
