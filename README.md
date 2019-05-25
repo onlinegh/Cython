@@ -5,6 +5,7 @@ An easy way to create compiled libraries out of Python modules.
    `pip install cython`
    
 #### Add the following python script to your project folder as compile.py
+   ```python
    `from distutils.core import setup`<br>
    `from distutils.extension import Extension`<br>
    `from Cython.Distutils import build_ext`<br>
@@ -18,7 +19,7 @@ An easy way to create compiled libraries out of Python modules.
        `cmdclass = {'build_ext': build_ext},`<br>
        `ext_modules = ext_modules`<br>
    `)`
-
+   ```
   
 
 #### There should be an entry point or main file in your project. Assume you have one main.py entry point file. 
