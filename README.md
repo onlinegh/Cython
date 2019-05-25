@@ -9,7 +9,7 @@ An easy way to create compiled libraries out of Python modules.
    `from distutils.extension import Extension`<br>
    `from Cython.Distutils import build_ext`<br>
    `ext_modules = [`<br>
-       &nbsp`Extension("mymodule1",  ["mymodule1.py"]),`<br>
+       `&nbspExtension("mymodule1",  ["mymodule1.py"]),`<br>
        `Extension("mymodule2",  ["mymodule2.py"]),`<br>
        `# add all your modules that need be compiled ...`<br>
    `]`<br>
