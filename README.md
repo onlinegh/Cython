@@ -22,9 +22,10 @@ An easy way to create compiled libraries out of Python modules.
   
 
 #### There should be an entry point or main file in your project. Assume you have one main.py entry point file. 
+  ```
   if __name__ == "__main__":
     main()
-    
+  ```  
 
 #### Run Compile.py script.
    `python compile.py build_ext --inplace`
@@ -36,6 +37,6 @@ An easy way to create compiled libraries out of Python modules.
 
 
 #### Now you can delete .py and .c files. You can use .pyd file just by importing it in python.
-   import main
+   `import main`
 
 #### Thanks :)
