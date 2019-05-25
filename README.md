@@ -8,11 +8,11 @@ An easy way to create compiled libraries out of Python modules.
    `from distutils.core import setup`<br>
    `from distutils.extension import Extension`<br>
    `from Cython.Distutils import build_ext`<br>
-   `ext_modules = [`<br>
+   ```ext_modules = [`<br>
        `&nbspExtension("mymodule1",  ["mymodule1.py"]),`<br>
        `Extension("mymodule2",  ["mymodule2.py"]),`<br>
        `# add all your modules that need be compiled ...`<br>
-   `]`<br>
+   ```]`<br>
    `setup(`<br>
        `name = 'My Program Name',`<br>
        `cmdclass = {'build_ext': build_ext},`<br>
