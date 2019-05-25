@@ -10,7 +10,8 @@ An easy way to create compiled libraries out of Python modules.
    from distutils.extension import Extension
    from Cython.Distutils import build_ext
    ext_modules = [
-       Extension("main",  ["main.py"]),
+       Extension("module1",  ["module1.py"]),
+       Extension("module2",  ["module2.py"]),
        #all your modules that need be compiled ...
    ]
    setup(
@@ -32,7 +33,7 @@ An easy way to create compiled libraries out of Python modules.
 
    
 #### The above command should generate .c and .pyd files if you are working on Windows Machine.
-   `main.c`
+   `main.c`<br>
    `main.cp36-win_amd64.pyd`
 
 
