@@ -1,10 +1,11 @@
-# Cython - optimising static compiler
+# Cython - optimising static compiler.
 An easy way to create compiled libraries out of Python modules.
 
 #### The Following commands to install Cython in python (if you have python installed).
    `pip install cython`
    
-#### Add the following python script to your project folder as compile.py
+#### Add the following python script to your project folder as compile.py.
+#### Please add your python modules that you need to be compiled in Extension().
    ```python
    from distutils.core import setup
    from distutils.extension import Extension
