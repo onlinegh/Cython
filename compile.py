@@ -2,7 +2,7 @@
 """
 Created on Sat May 25 11:27:36 2019
 
-@author: PA389009
+@author: parag
 """
 
 from distutils.core import setup
